@@ -1,3 +1,14 @@
+let с=calcAge(65) , q=calcAge(0) , y=calcAge(20) ;
+
+function calcAge(age) {
+  return ( age * 365
+ )
+}    
+
+console.log(с);
+console.log(q);
+console.log(y);
+
 
 let all = 0;
 for (let i = 1; i < 10; i++) {
