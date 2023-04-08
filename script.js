@@ -9,6 +9,11 @@ console.log(с);
 console.log(q);
 console.log(y);
 
+// let snm="Front-end Developer"
+// for (let f = 0; f <=snm.length; f++) {
+//   console.log(`${snm[f]}${snm[f+1]}${snm[f+2]}${snm[f+3]}${snm[f+4]}${snm[f+5]}${snm[f+6]}${snm[f+7]}${snm[f+8]}${snm[f+9]}${snm[f+10]}${snm[f+11]}${snm[f+12]}${snm[f+13]}${snm[f+14]}${snm[f+15]}${snm[f+16]}${snm[f+17]}${snm[f+18]}${snm[f+19]} `);
+  
+// }
 
 let all = 0;
 for (let i = 1; i < 10; i++) {
