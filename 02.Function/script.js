@@ -88,24 +88,11 @@ console.log("///////////////////////////");
 const less1 = [22, 15];
 const less2 = [83, 34];
 const less3 = [3, 77];
-let sum2 = 0;
 
-const lessThan100 = (less) => {
-  for (let i = 0; i < less.length; i++) {
-    sum2 += less[i];
-    if (sum2 < 100) {
-      console.log("true");
-    } else {
-      console.log("false");
-    }
-  }
-  return sum2;
-};
+const lessThan100 = (less) => less[0] + less[1] <100
 
 console.log(lessThan100(less1));
-sum2 = 0;
 console.log(lessThan100(less2));
-sum2 = 0;
 console.log(lessThan100(less3));
 
 
