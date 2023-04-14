@@ -116,13 +116,18 @@ console.log("///////////////////////////");
 ///////// 6 /////////
 
 
-const volume1=[{ width: 2, length: 5, height: 1 }]
-const volume2=[{ width: 4, length: 2, height: 1 }]
-const volume3=[{ width: 2, length: 3, height: 5 }]
+const volume1 = { width: 2, length: 5, height: 1 };
+const volume2 = { width: 4, length: 2, height: 1 };
+const volume3 = { width: 2, length: 3, height: 5 };
 
 function volumeOfBox(m) {
-    
+  return m.width * m.length * m.height;
 }
+
+console.log(volumeOfBox(volume1));
+console.log(volumeOfBox(volume2));
+console.log(volumeOfBox(volume3));
+
 
 
 console.log('////////////////');
