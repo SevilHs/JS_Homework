@@ -30,6 +30,7 @@
   font-size: 17px;
   text-align: right;
   border: none;
+  height: 40px;
 }
 .values {
   padding: 0;
@@ -51,7 +52,7 @@ button {
   font-weight: bold;
   color: black;
 }
-#reset-btn{
-    background-color: rgb(227, 89, 51);
-    border: 2px solid black;
+#reset-btn {
+  background-color: rgb(227, 89, 51);
+  border: 2px solid black;
 }
