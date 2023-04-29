@@ -49,6 +49,7 @@ button {
   padding: 8px;
   border: 2px solid #aaa;
   font-weight: bold;
+  color: black;
 }
 #reset-btn{
     background-color: rgb(227, 89, 51);
