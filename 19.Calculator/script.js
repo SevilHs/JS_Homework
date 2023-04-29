@@ -10,23 +10,37 @@ let resetBtn = document.querySelector("#reset-btn");
 result.value = 0;
 
 additionBtn.addEventListener("click", function () {
-  result.value = +value1.value + +value2.value;
+  result.innerHTML = +value1.value + +value2.value;
+  if (value1.value==='' || value2.value==='') {
+    alert('Please add value')
+  }
 });
 
 subsractBtn.addEventListener("click", function () {
-  result.value = +value1.value - +value2.value;
+  result.innerHTML = +value1.value - +value2.value;
+  if (value1.value==='' || value2.value==='') {
+    alert('Please add value')
+  }
 });
 
 multiplyBtn.addEventListener("click", function () {
-  result.value = +value1.value * +value2.value;
+  result.innerHTML = +value1.value * +value2.value;
+  if (value1.value==='' || value2.value==='') {
+    alert('Please add value')
+  }
 });
 
 divisionBtn.addEventListener("click", function () {
-  result.value = +value1.value / +value2.value;
+  result.innerHTML = +value1.value / +value2.value;
+  if (value1.value==='' || value2.value==='') {
+    alert('Please add value')
+    result.innerHTML='0'
+  }
+
 });
 
 resetBtn.addEventListener("click", function () {
-  result.value = "0";
+  result.innerHTML = "0";
   value1.value = "";
   value2.value = "";
 });
