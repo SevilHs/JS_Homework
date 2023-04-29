@@ -7,7 +7,7 @@ let multiplyBtn = document.querySelector("#multiply-btn");
 let divisionBtn = document.querySelector("#division-btn");
 let resetBtn = document.querySelector("#reset-btn");
 
-result.value = 0;
+result.innerHTML = 0;
 
 additionBtn.addEventListener("click", function () {
   result.innerHTML = +value1.value + +value2.value;
