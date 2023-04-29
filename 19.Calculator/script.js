@@ -12,28 +12,28 @@ result.value = 0;
 additionBtn.addEventListener("click", function () {
   result.innerHTML = +value1.value + +value2.value;
   if (value1.value==='' || value2.value==='') {
-    alert('Please add value')
+    alert('Please add value!')
   }
 });
 
 subsractBtn.addEventListener("click", function () {
   result.innerHTML = +value1.value - +value2.value;
   if (value1.value==='' || value2.value==='') {
-    alert('Please add value')
+    alert('Please add value!')
   }
 });
 
 multiplyBtn.addEventListener("click", function () {
   result.innerHTML = +value1.value * +value2.value;
   if (value1.value==='' || value2.value==='') {
-    alert('Please add value')
+    alert('Please add value!')
   }
 });
 
 divisionBtn.addEventListener("click", function () {
   result.innerHTML = +value1.value / +value2.value;
   if (value1.value==='' || value2.value==='') {
-    alert('Please add value')
+    alert('Please add value!')
     result.innerHTML='0'
   }
 
